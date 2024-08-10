@@ -26,7 +26,6 @@ jobs:
         with:
           name: production-files
           path: ./dist
-
   # Deploy Job
   deploy:
     needs: build
