@@ -26,12 +26,12 @@ function App() {
               <div className="space-y-6 text-start my-5">
                 <WorkingExperiance
                   company="PT. BFI Finance Indonesia"
-                  workExperience="October 2022 - Agustus 2024"
+                  workExperience="October 2022 - August 2024"
                   description=" Slicing UI/UX design to be web design with HTML, CSS, Material UI, Bootstrap, Bootstrap CSS, SASS, Develop al Frontend web using ReactJS, Develop all responsive website, Develop state management using Redux Toolkit, Integration API using Axios, Develop unit test components (RTL & Jest), Migration code JavaScript to TypeScript, Migration web app from .NET to ReactJS, Maintenance and update feature."
                 />
                 <WorkingExperiance
                   company="PT. Kairos Cahaya Cemerlang"
-                  workExperience="Agustus 2022 - October 2022"
+                  workExperience="August 2022 - October 2022"
                   description="Developing a new company profile website with a modern theme using ReactJs, Creating a Backend API Service for employee attendance, Building an integrated employee attendance system with the Backend API."
                 />
               </div>
