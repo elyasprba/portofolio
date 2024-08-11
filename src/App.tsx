@@ -1,8 +1,10 @@
-import { AboutMe } from './components/aboutme';
-import { WorkingExperiance } from './components/working-experiance';
 import { Header } from './components/header';
+import { WorkingExperiance } from './components/working-experiance';
+import { AboutMe } from './components/aboutme';
 
 import './App.css';
+import { TechStack } from './components/tech-stack';
+import { Footer } from './components/footer';
 
 function App() {
   return (
@@ -17,11 +19,10 @@ function App() {
               description="I am a Frontend Engineer with expertise in building intuitive, responsive, and user-friendly interfaces. I am proficient in modern technologies and tools such as HTML, CSS, JavaScript, TypeScript, as well as frameworks like React JS and Next JS. Additionally, I work with Redux Toolkit, React Query, Axios, Material-UI, and Tailwind CSS to create robust and efficient web applications."
             />
 
-            <div className="mx-10 my-10">
+            <div className="my-10 mx-4 sm:mx-10">
               <h4 className="text-base text-start font-bold tracking-tight text-gray-700 pb-1 px-5">
                 Working Experience
               </h4>
-
               <div className="space-y-6 text-start my-5">
                 <WorkingExperiance
                   company="PT. BFI Finance Indonesia"
@@ -35,7 +36,9 @@ function App() {
                 />
               </div>
             </div>
+            <TechStack />
           </main>
+          <Footer />
         </div>
       </div>
     </>
