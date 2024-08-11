@@ -14,7 +14,7 @@ function App() {
           <main>
             <AboutMe
               title="About me"
-              description="I am a highly motivated Frontend Engineer eager to learn everything about programming languages. I have experience in creating and developing various e-commerce websites using React JS as the frontend and Express JS as the backend. I possess programming skills in JavaScript, TypeScript, HTML, CSS, Material-UI and several frameworks such as Express JS, React JS, Next JS and PostgreSQL as a database."
+              description="I am a Frontend Engineer with expertise in building intuitive, responsive, and user-friendly interfaces. I am proficient in modern technologies and tools such as HTML, CSS, JavaScript, TypeScript, as well as frameworks like React JS and Next JS. Additionally, I work with Redux Toolkit, React Query, Axios, Material-UI, and Tailwind CSS to create robust and efficient web applications."
             />
 
             <div className="mx-10 my-10">
