@@ -4,18 +4,19 @@ import {
   LinkedinFillIcon,
 } from '../../assets/components';
 import { Icon } from '../icon';
+import UserIcon from '../../assets/icon-users.svg';
 
 export const Header = () => {
   return (
     <>
       <header>
-        {/* <img
+        <img
           src={UserIcon}
           alt="My Icon"
           width={125}
           height={125}
           className="border border-slate-200 p-2 rounded-full mx-14 mt-14"
-        /> */}
+        />
 
         <h4 className="text-xl pt-7 text-start font-bold tracking-tight text-gray-700 px-16 sm:text-2xl">
           Elyas Purba Prastiya
