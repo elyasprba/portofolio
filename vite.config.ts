@@ -5,6 +5,9 @@ export default defineConfig({
   plugins: [react()],
   base: '/portofolio/', // Add only this section
   server: {
-    port: 4200,
+    strictPort: true, // Ensures port usage strictness
+  },
+  build: {
+    target: 'modules', // or 'modules' if targeting older browsers
   },
 });
