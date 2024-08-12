@@ -7,6 +7,7 @@ import { TechStack } from './components/tech-stack';
 import { Footer } from './components/footer';
 
 function App() {
+  console.log('test');
   return (
     <>
       <div className="flex justify-center p-20 min-[320px]:p-5">
