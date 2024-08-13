@@ -1,13 +1,12 @@
 import { Header } from './components/header';
 import { WorkingExperiance } from './components/working-experiance';
 import { AboutMe } from './components/aboutme';
-
-import './App.css';
 import { TechStack } from './components/tech-stack';
 import { Footer } from './components/footer';
 
+import './App.css';
+
 function App() {
-  console.log('test');
   return (
     <>
       <div className="flex justify-center p-20 min-[320px]:p-5">
