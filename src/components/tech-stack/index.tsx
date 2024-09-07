@@ -1,6 +1,7 @@
 import { Icon } from '../icon';
 import {
   BootstrapIcon,
+  ExpressIcon,
   MaterialUiIcon,
   NextIcon,
   ReactIcon,
@@ -17,13 +18,14 @@ export const TechStack = () => {
           Tech Stack
         </h4>
         <div className="my-5 mx-4 flex sm:justify-center sm:gap-5 gap-1 flex-wrap max-w-3xl">
-          <Icon link="https://github.com/elyasprba" icon={<ReactIcon />} />
-          <Icon link="https://github.com/elyasprba" icon={<NextIcon />} />
-          <Icon link="https://github.com/elyasprba" icon={<ReduxIcon />} />
-          <Icon link="https://github.com/elyasprba" icon={<ReactQueryIcon />} />
-          <Icon link="https://github.com/elyasprba" icon={<TailwindIcon />} />
-          <Icon link="https://github.com/elyasprba" icon={<MaterialUiIcon />} />
-          <Icon link="https://github.com/elyasprba" icon={<BootstrapIcon />} />
+          <Icon icon={<ReactIcon />} />
+          <Icon icon={<NextIcon />} />
+          <Icon icon={<ReduxIcon />} />
+          <Icon icon={<ReactQueryIcon />} />
+          <Icon icon={<TailwindIcon />} />
+          <Icon icon={<MaterialUiIcon />} />
+          <Icon icon={<BootstrapIcon />} />
+          <Icon icon={<ExpressIcon />} />
         </div>
       </div>
     </>

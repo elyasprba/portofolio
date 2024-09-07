@@ -9,3 +9,4 @@ export * from './react-query';
 export * from './tailwind-icon';
 export * from './material-icon';
 export * from './bootstrap-icon';
+export * from './express-icon';

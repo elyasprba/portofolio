@@ -9,7 +9,7 @@ import './App.css';
 function App() {
   return (
     <>
-      <div className="flex justify-center p-20 min-[320px]:p-5">
+      <div className="flex justify-center p-20 min-[320px]:p-4">
         <div className="max-w-3xl bg-white border-4 border-gray-300 rounded-3xl shadow-lg">
           <Header />
 
