@@ -13,7 +13,7 @@ import {
 export const TechStack = () => {
   return (
     <>
-      <div className="mb-10 mx-4 sm:mx-10">
+      <div className="mb-10 mt-7 mx-4 sm:mx-10">
         <h4 className="text-base text-start font-bold tracking-tight text-gray-700 pb-1 px-5">
           Tech Stack
         </h4>
