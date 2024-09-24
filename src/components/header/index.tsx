@@ -37,7 +37,7 @@ export const Header = () => {
             <Icon link="#" icon={<InstagramFillIcon />} />
           </div>
           <a
-            href="#"
+            href="/project"
             className="py-1 px-4 sm:py-2 bg-gray-200 rounded-2xl flex items-center justify-center hover:bg-gray-300 transition-transform duration-300 ease-in-out transform hover:-translate-y-1 hover:-rotate-2"
           >
             <p className="text-gray-700 font-medium text-sm sm:text-base">
