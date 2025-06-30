@@ -1,9 +1,9 @@
-import { AboutMe } from '../../components/aboutme';
-import { Education } from '../../components/education';
-import { Footer } from '../../components/footer';
-import { Header } from '../../components/header';
-import { TechStack } from '../../components/tech-stack';
-import { WorkingExperiance } from '../../components/working-experiance';
+import { AboutMe } from "../../components/aboutme";
+import { Education } from "../../components/education";
+import { Footer } from "../../components/footer";
+import { Header } from "../../components/header";
+import { TechStack } from "../../components/tech-stack";
+import { WorkingExperiance } from "../../components/working-experiance";
 
 function Home() {
   return (
@@ -15,7 +15,7 @@ function Home() {
           <main>
             <AboutMe
               title="About me"
-              description="I am a Frontend Engineer with expertise in building intuitive, responsive, and user-friendly interfaces. I am proficient in modern technologies and tools such as HTML, CSS, JavaScript, TypeScript, as well as frameworks like React JS and Next JS. Additionally, I work with Redux Toolkit, React Query, Axios, Material-UI, and Tailwind CSS to create robust and efficient web applications."
+              description="Frontend Engineer with 2 years of experience building intuitive, responsive, and user-friendly interfaces, with additional experience in full stack development (under 1 year). Skilled in TypeScript, React.js, Next.js, and Tailwind CSS, and experienced with Redux Toolkit, React Query, and Axios for robust, efficient applications. On the backend, working with Express.js, Redis, and databases like MongoDB, PostgreSQL, and SQLite using Prisma for seamless ORM, and using Docker for streamlined development and deployment."
             />
 
             <TechStack />
@@ -25,6 +25,12 @@ function Home() {
                 Working Experience
               </h4>
               <div className="space-y-6 text-start my-5">
+                <WorkingExperiance
+                  company="Phintraco Group"
+                  role="Full Stack Web Developer"
+                  workExperience="October 2024 - March 2025"
+                  description="Worked on the My Telkomsel web app, developing RESTful APIs with Express.js and building features with React.js and Material-UI. Utilized Redux Saga for efficient state management."
+                />
                 <WorkingExperiance
                   company="PT. BFI Finance Indonesia"
                   role="Frontend Engineer"

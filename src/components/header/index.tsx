@@ -2,9 +2,9 @@ import {
   GithubFillIcon,
   InstagramFillIcon,
   LinkedinFillIcon,
-} from '../../assets/components';
-import { Icon } from '../icon';
-import UserIcon from '../../assets/icon-users.svg';
+} from "../../assets/components";
+import { Icon } from "../icon";
+import UserIcon from "../../assets/icon-users.svg";
 
 export const Header = () => {
   return (
@@ -22,7 +22,7 @@ export const Header = () => {
           Elyas Purba Prastiya
         </h4>
         <p className="pt-1 font-normal text-gray-500 text-start px-10 sm:px-16 text-md">
-          Frontend Engineer
+          Full Stack Web Developer
         </p>
         <div className="flex justify-between items-center flex-wrap max-w-3xl mx-8 sm:mx-14">
           <div className="flex gap-3 pt-8 pb-8">

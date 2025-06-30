@@ -6,7 +6,7 @@ export const Education = () => {
           Education
         </h4>
 
-        <div className="p-5 rounded-md shadow-sm">
+        <div className="p-5 mt-5 rounded-lg shadow-inner">
           <div className="sm:flex justify-between">
             <h3 className="text-md font-bold text-gray-700">
               Pamulang University
